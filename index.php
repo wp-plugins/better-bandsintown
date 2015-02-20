@@ -3,7 +3,7 @@
  Plugin Name: Better Bandsintown
  Plugin URI: http://kayvanbree.nl/
  Description: Embed Tour Dates from Bandsintown.com without having to deal with CSS (or an ugly widget).
- Version: 0.3
+ Version: 0.4
  Author: Kay van Bree
  Author URI: 
  Text Domain: bbit-widget

@@ -4,7 +4,7 @@ Donate link: ...
 Tags: bandsintown, bands, in, town, tour dates, tour, dates
 Requires at least: 4.0.0
 Tested up to: 4.1.1
-Stable tag: 0.3
+Stable tag: 0.4
 License: GPL3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -35,6 +35,13 @@ Just enter a bandname that has a Bandsintown.com page and you're ready to go.
 
 Enter the shortcode [bbit bandname="Lady Gaga"] into a page and it will show all future gigs.
 
+= How do I switch themes in the shortcode? =
+
+Enter a theme into the shortcode like this: [bbit bandname="Lady Gaga" theme="dark-transparent"]. The following themes are supported:
+
+* dark-transparent
+* light-transparent
+
 == Screenshots ==
 
 1. The widget with a dark theme
@@ -42,6 +49,9 @@ Enter the shortcode [bbit bandname="Lady Gaga"] into a page and it will show all
 3. The widget with a light theme
 
 == Changelog ==
+
+= 0.4 =
+* Added the light theme for the shortcode
 
 = 0.3 =
 * Added the light theme
@@ -53,6 +63,9 @@ Enter the shortcode [bbit bandname="Lady Gaga"] into a page and it will show all
 * Initial version
 
 == Upgrade Notice ==
+
+= 0.4 =
+* Get the new light themed shortcode!
 
 = 0.3 =
 * Get the new light theme!
