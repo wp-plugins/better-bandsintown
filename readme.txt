@@ -4,7 +4,7 @@ Donate link: ...
 Tags: bandsintown, bands, in, town, tour dates, tour, dates
 Requires at least: 4.0.0
 Tested up to: 4.1.1
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPL3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -42,10 +42,16 @@ Enter the shortcode [bbit bandname="Lady Gaga"] into a page and it will show all
 
 == Changelog ==
 
+= 0.2 =
+* Updated plugin information
+
 = 0.1 =
 * Initial version
 
 == Upgrade Notice ==
+
+= 0.2 =
+* You don't have to update, this update is just for the descriptions on the Wordpress site.
 
 = 0.1 =
 * Get the first version!
