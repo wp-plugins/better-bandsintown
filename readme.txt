@@ -1,6 +1,6 @@
 === Better Bandsintown ===
 Contributors: mrpaplu
-Donate link: ...
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQMLY97FAURYW
 Tags: bandsintown, bands, in, town, tour dates, tour, dates
 Requires at least: 4.0.0
 Tested up to: 4.1.1
@@ -14,7 +14,7 @@ Embed Tour Dates from Bandsintown.com without having to deal with CSS (or an ugl
 
 Embed Tour Dates from Bandsintown.com without having to deal with CSS (or an ugly widget).
 
-Planned features:
+= Planned features =
 * Different themes (For example: light theme)
 * Customizable widget
 
