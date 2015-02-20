@@ -22,9 +22,14 @@ Dark Better Bandsintown
 }
 
 .bandsintown-logo-wrapper {
-    margin: 0px auto;
     padding: 3px 0px;
     background: #2f959f;
+    margin-bottom: -6px;
+}
+
+.bandsintown-logo-link {
+    width: 100%;
+    color: white !important;
 }
 
 .bit-track-artist-header {
