@@ -14,7 +14,7 @@ Embed Tour Dates from Bandsintown.com without having to deal with CSS (or an ugl
 
 Embed Tour Dates from Bandsintown.com without having to deal with CSS (or an ugly widget).
 
-Planned features:
+= Planned features =
 * Different themes (For example: light theme)
 * Customizable widget
 
