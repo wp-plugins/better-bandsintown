@@ -14,6 +14,10 @@ Embed Tour Dates from Bandsintown.com without having to deal with CSS (or an ugl
 
 Embed Tour Dates from Bandsintown.com without having to deal with CSS (or an ugly widget).
 
+Planned features:
+* Different themes (For example: light theme)
+* Customizable widget
+
 == Installation ==
 
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
@@ -23,21 +27,18 @@ Embed Tour Dates from Bandsintown.com without having to deal with CSS (or an ugl
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= How do I use the widget? =
 
-An answer to that question.
+Just enter a bandname that has a Bandsintown.com page and you're ready to go.
 
-= What about foo bar? =
+= How do I use the shortcode? =
 
-Answer to foo bar dilemma.
+Enter the shortcode [bbit bandname="Lady Gaga"] into a page and it will show all future gigs.
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets 
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png` 
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. The widget with a dark theme
+2. The shortcode in action
 
 == Changelog ==
 
