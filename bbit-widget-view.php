@@ -1,4 +1,4 @@
-<div class="bbit-widget_wrapper">
+<div class="bbit-widget_wrapper <?php echo $css_class; ?>">
     <a class="bandsintown-logo-link" href="http://www.bandsintown.com/<?php echo $bandname; ?>">
         <div class="bandsintown-logo-wrapper">
             <img class="bandsintown-logo" src="<?php echo plugins_url('images/bandsintown-logo.png', __FILE__ ) ?>" />

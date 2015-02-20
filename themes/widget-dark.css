@@ -1,80 +1,30 @@
 /*
-Dark Better Bandsintown
+Dark theme
 */
 
-.bandsintown-logo {
-    width: 40px;
-    height: 40px;
-    float: left;
-    margin-left: 3px;
-}
-
-.clear-both {
-    clear: both;
-}
-
-.bbit-widget-bandname {
-    margin-left: 5px;
-    margin-top: 10px;
-    float: left;
-    font-family: helvetica, sans-serif;
-    font-size: 26px;
-}
-
-.bandsintown-logo-wrapper {
-    padding: 3px 0px;
+.bbit-widget-dark .bandsintown-logo-wrapper {
     background: #2f959f;
-    margin-bottom: -6px;
 }
 
-.bandsintown-logo-link {
-    width: 100%;
+.bbit-widget-dark .bandsintown-logo-link {
     color: white !important;
 }
 
-.bit-track-artist-header {
-    display: none !important;
-}
-
-.bbit-widget_wrapper {
+.bbit-widget-dark {
     background: #2b2b2b;
 }
 
-.bbit-widget_wrapper table, 
-.bbit-widget_wrapper td, 
-.bbit-widget_wrapper th, 
-.bbit-widget_wrapper tbody {
-    border: none;
+.bbit-widget-dark .bit-events-narrow td {
+    border-top-color: #222 !important;
+    border-bottom-color: #222 !important;
 }
 
-// Always the same margin bottom
-.bbit-widget_wrapper table {
-    margin-bottom: 0px;
-}
-.bbit-widget_wrapper {
-    margin-bottom: 20px;
-}
-
-.bit-events-narrow td {
-    border-top: 1px solid #222 !important;
-    border-bottom: 1px solid #222 !important;
-}
-
-.bbit-widget_wrapper {
-    font-weight: bold;
+.bbit-widget-dark {
     color: #ffffff;
     text-shadow: 1px 1px #222;
 }
 
-.bit-rsvp {
-    text-shadow: none;
-}
-
-.bit-events-narrow {
-    margin-top: 0px;
-}
-
-.bit-header-narrow {
+.bbit-widget-dark .bit-header-narrow {
     background: rgb(0,0,0); /* Old browsers */
     background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(117,117,117,1) 0%, rgba(79,79,79,1) 44%, rgba(51,51,51,1) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(0%,rgba(117,117,117,1)), color-stop(44%,rgba(79,79,79,1)), color-stop(100%,rgba(51,51,51,1))); /* Chrome,Safari4+ */
@@ -85,15 +35,11 @@ Dark Better Bandsintown
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
 }
 
-.bit-header-narrow {
-    border-top: 1px solid rgba(255,255,255,.09) !important;
-    border-bottom: 1px solid #222 !important;
+.bbit-widget-dark .bit-header-narrow {
+    border-top-color: rgba(255,255,255,.09) !important;
+    border-bottom-color: #222 !important;
 }
 
-.bit-track-artist-header {
-    border: none !important;
-}
-
-.bbit-widget_wrapper a {
+.bbit-widget-dark a {
     color: #2f959f;
 }

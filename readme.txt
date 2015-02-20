@@ -4,7 +4,7 @@ Donate link: ...
 Tags: bandsintown, bands, in, town, tour dates, tour, dates
 Requires at least: 4.0.0
 Tested up to: 4.1.1
-Stable tag: 0.2
+Stable tag: 0.3
 License: GPL3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -14,7 +14,7 @@ Embed Tour Dates from Bandsintown.com without having to deal with CSS (or an ugl
 
 Embed Tour Dates from Bandsintown.com without having to deal with CSS (or an ugly widget).
 
-= Planned features =
+Planned features:
 * Different themes (For example: light theme)
 * Customizable widget
 
@@ -39,8 +39,12 @@ Enter the shortcode [bbit bandname="Lady Gaga"] into a page and it will show all
 
 1. The widget with a dark theme
 2. The shortcode in action
+3. The widget with a light theme
 
 == Changelog ==
+
+= 0.3 =
+* Added the light theme
 
 = 0.2 =
 * Updated plugin information
@@ -49,6 +53,9 @@ Enter the shortcode [bbit bandname="Lady Gaga"] into a page and it will show all
 * Initial version
 
 == Upgrade Notice ==
+
+= 0.3 =
+* Get the new light theme!
 
 = 0.2 =
 * You don't have to update, this update is just for the descriptions on the Wordpress site.
