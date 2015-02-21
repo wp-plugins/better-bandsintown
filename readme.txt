@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: bandsintown, bands, in, town, tour dates, tour, dates
 Requires at least: 4.0.0
 Tested up to: 4.1.1
-Stable tag: 0.4.1
+Stable tag: 0.4.2
 License: GPL3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -53,6 +53,9 @@ Enter a theme into the shortcode like this: [bbit bandname="Lady Gaga" theme="da
 
 == Changelog ==
 
+= 0.4.2 =
+* Fixed a shortcode issue only appearing on my live website
+
 = 0.4.1 =
 * Tested using WP_DEBUG, found some minor issues
 
@@ -69,6 +72,9 @@ Enter a theme into the shortcode like this: [bbit bandname="Lady Gaga" theme="da
 * Initial version
 
 == Upgrade Notice ==
+
+= 0.4.2 =
+* Get your shortcodes to work!
 
 = 0.4.1 =
 * Fix some minor issues

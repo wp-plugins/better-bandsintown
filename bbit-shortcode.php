@@ -10,20 +10,17 @@ add_action('wp_enqueue_scripts', function(){
     wp_enqueue_script('bit-initializer', 'http://widget.bandsintown.com/javascripts/bit_widget.js');
 });
 
+add_action('init', function(){
+    add_shortcode('bbit', array('BBIT_ShortCode', 'shortcode_handler'));
+});
+
 new BBIT_ShortCode();
 
 class BBIT_ShortCode {
     public function __construct(){
-        $this->setup_shortcode();
     }
     
-    public function setup_shortcode(){
-        add_action('init', function(){
-            add_shortcode('bbit', array($this, 'shortcode_handler'));
-        });
-    }
-    
-    public function shortcode_handler( $atts ) {
+    public static function shortcode_handler( $atts ) {
         $a = shortcode_atts( array(
             'bandname' => 'something',
             'theme' => 'dark-transparent'
