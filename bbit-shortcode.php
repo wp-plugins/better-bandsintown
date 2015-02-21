@@ -6,11 +6,14 @@ add_action( 'wp_head', function(){
     wp_enqueue_style('shortcode-light-transparent', plugins_url('themes/shortcode-light-transparent.css', __FILE__ ));
 });
 
+add_action('wp_enqueue_scripts', function(){
+    wp_enqueue_script('bit-initializer', 'http://widget.bandsintown.com/javascripts/bit_widget.js');
+});
+
 new BBIT_ShortCode();
 
 class BBIT_ShortCode {
     public function __construct(){
-        wp_enqueue_script('bit-initializer', 'http://widget.bandsintown.com/javascripts/bit_widget.js');
         $this->setup_shortcode();
     }
     

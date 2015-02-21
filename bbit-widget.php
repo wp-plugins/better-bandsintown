@@ -6,6 +6,10 @@ add_action( 'wp_head', function(){
     wp_enqueue_style('widget-light', plugins_url('themes/widget-light.css', __FILE__ ));
 });
 
+add_action('wp_enqueue_scripts', function(){
+    wp_enqueue_script('bit-initializer', 'http://www.bandsintown.com/javascripts/bit_widget.js');
+});
+
 add_action( 'widgets_init', function(){
      register_widget( 'BBIT_Widget' );
 });
@@ -20,7 +24,6 @@ class BBIT_Widget Extends WP_Widget {
             __( 'Better Bandsintown', 'text_domain' ), // Name
             array( 'description' => __( 'Better Bandsintown Widget', 'bbit-widget' ), ) // Args
         );
-        wp_enqueue_script('bit-initializer', 'http://www.bandsintown.com/javascripts/bit_widget.js');
     }
 
     /**
